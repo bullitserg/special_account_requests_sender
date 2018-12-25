@@ -15,7 +15,7 @@ out_dir = normpath(out_dir)
 def write_log(file, text):
     print(text)
     with open(file, mode='a', encoding='utf8') as log:
-        log.write(str(text) + '\n')
+        log.write(str(text) + '\r\n')
 
 
 while True:
