@@ -9,6 +9,7 @@ from config import *
 from codes import *
 
 input_dir = normpath(input_dir)
+out_dir = normpath(out_dir)
 
 
 def write_log(file, text):
